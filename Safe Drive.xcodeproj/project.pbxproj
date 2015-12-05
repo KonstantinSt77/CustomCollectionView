@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B638AAC1C135EF200EC90B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B638AAB1C135EF200EC90B1 /* Assets.xcassets */; };
+		8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75721C130A9A00D35E74 /* SDTableViewController.m */; };
+		8BCE75761C133EC700D35E74 /* SDInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75751C133EC700D35E74 /* SDInputViewController.m */; };
 		8BDADAF41C09E114002682E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF31C09E114002682E4 /* main.m */; };
 		8BDADAF71C09E114002682E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF61C09E114002682E4 /* AppDelegate.m */; };
 		8BDADAFA1C09E114002682E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF91C09E114002682E4 /* ViewController.m */; };
 		8BDADAFD1C09E114002682E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDADAFB1C09E114002682E4 /* Main.storyboard */; };
-		8BDADAFF1C09E114002682E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDADAFE1C09E114002682E4 /* Assets.xcassets */; };
 		8BDADB021C09E114002682E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDADB001C09E114002682E4 /* LaunchScreen.storyboard */; };
 		8BDADB0D1C09E114002682E4 /* Safe_DriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB0C1C09E114002682E4 /* Safe_DriveTests.m */; };
 		8BDADB181C09E114002682E4 /* Safe_DriveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB171C09E114002682E4 /* Safe_DriveUITests.m */; };
@@ -38,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B638AAB1C135EF200EC90B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCE75711C130A9A00D35E74 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewController.h; sourceTree = "<group>"; };
+		8BCE75721C130A9A00D35E74 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
+		8BCE75741C133EC700D35E74 /* SDInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDInputViewController.h; sourceTree = "<group>"; };
+		8BCE75751C133EC700D35E74 /* SDInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDInputViewController.m; sourceTree = "<group>"; };
 		8BDADAEF1C09E114002682E4 /* Safe Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDADAF31C09E114002682E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BDADAF51C09E114002682E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,7 +52,6 @@
 		8BDADAF81C09E114002682E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BDADAF91C09E114002682E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8BDADAFC1C09E114002682E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BDADAFE1C09E114002682E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDADB011C09E114002682E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BDADB031C09E114002682E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDADB081C09E114002682E4 /* Safe DriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe DriveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +93,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B638AAA1C135A0700EC90B1 /* SDDefaltProjectFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8BDADAF51C09E114002682E4 /* AppDelegate.h */,
+				8BDADAF61C09E114002682E4 /* AppDelegate.m */,
+				8BDADAF81C09E114002682E4 /* ViewController.h */,
+				8BDADAF91C09E114002682E4 /* ViewController.m */,
+				8B638AAB1C135EF200EC90B1 /* Assets.xcassets */,
+				8BDADB031C09E114002682E4 /* Info.plist */,
+			);
+			name = SDDefaltProjectFiles;
+			sourceTree = "<group>";
+		};
+		8BCE75771C13578500D35E74 /* SDPasswordViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE75711C130A9A00D35E74 /* SDTableViewController.h */,
+				8BCE75721C130A9A00D35E74 /* SDTableViewController.m */,
+				8BCE75741C133EC700D35E74 /* SDInputViewController.h */,
+				8BCE75751C133EC700D35E74 /* SDInputViewController.m */,
+			);
+			name = SDPasswordViewControllers;
+			sourceTree = "<group>";
+		};
+		8BCE75781C1357FD00D35E74 /* SDStartViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BDADB2B1C0A06A3002682E4 /* SDMenuViewController.h */,
+				8BDADB2C1C0A06A3002682E4 /* SDMenuViewController.m */,
+				8BDADB251C09E28B002682E4 /* SDLoginViewController.h */,
+				8BDADB261C09E28B002682E4 /* SDLoginViewController.m */,
+			);
+			name = SDStartViewControllers;
+			sourceTree = "<group>";
+		};
 		8BDADAE61C09E114002682E4 = {
 			isa = PBXGroup;
 			children = (
@@ -110,20 +151,13 @@
 		8BDADAF11C09E114002682E4 /* Safe Drive */ = {
 			isa = PBXGroup;
 			children = (
-				8BDADAF51C09E114002682E4 /* AppDelegate.h */,
-				8BDADAF61C09E114002682E4 /* AppDelegate.m */,
-				8BDADAF81C09E114002682E4 /* ViewController.h */,
-				8BDADAF91C09E114002682E4 /* ViewController.m */,
-				8BDADB2B1C0A06A3002682E4 /* SDMenuViewController.h */,
-				8BDADB2C1C0A06A3002682E4 /* SDMenuViewController.m */,
-				8BDADB251C09E28B002682E4 /* SDLoginViewController.h */,
-				8BDADB261C09E28B002682E4 /* SDLoginViewController.m */,
+				8B638AAA1C135A0700EC90B1 /* SDDefaltProjectFiles */,
+				8BCE75781C1357FD00D35E74 /* SDStartViewControllers */,
+				8BCE75771C13578500D35E74 /* SDPasswordViewControllers */,
 				8BDADB281C09F292002682E4 /* SDBrowserViewController.h */,
 				8BDADB291C09F292002682E4 /* SDBrowserViewController.m */,
 				8BDADAFB1C09E114002682E4 /* Main.storyboard */,
-				8BDADAFE1C09E114002682E4 /* Assets.xcassets */,
 				8BDADB001C09E114002682E4 /* LaunchScreen.storyboard */,
-				8BDADB031C09E114002682E4 /* Info.plist */,
 				8BDADAF21C09E114002682E4 /* Supporting Files */,
 			);
 			path = "Safe Drive";
@@ -263,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDADB021C09E114002682E4 /* LaunchScreen.storyboard in Resources */,
-				8BDADAFF1C09E114002682E4 /* Assets.xcassets in Resources */,
+				8B638AAC1C135EF200EC90B1 /* Assets.xcassets in Resources */,
 				8BDADAFD1C09E114002682E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,11 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE75761C133EC700D35E74 /* SDInputViewController.m in Sources */,
 				8BDADB2D1C0A06A3002682E4 /* SDMenuViewController.m in Sources */,
 				8BDADAFA1C09E114002682E4 /* ViewController.m in Sources */,
 				8BDADB271C09E28B002682E4 /* SDLoginViewController.m in Sources */,
 				8BDADB2A1C09F292002682E4 /* SDBrowserViewController.m in Sources */,
 				8BDADAF71C09E114002682E4 /* AppDelegate.m in Sources */,
+				8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */,
 				8BDADAF41C09E114002682E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +554,7 @@
 				8BDADB1E1C09E114002682E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDADB1F1C09E114002682E4 /* Build configuration list for PBXNativeTarget "Safe DriveTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +563,7 @@
 				8BDADB211C09E114002682E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDADB221C09E114002682E4 /* Build configuration list for PBXNativeTarget "Safe DriveUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +572,7 @@
 				8BDADB241C09E114002682E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
