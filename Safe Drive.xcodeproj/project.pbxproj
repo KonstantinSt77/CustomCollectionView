@@ -10,6 +10,7 @@
 		8B638AAC1C135EF200EC90B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B638AAB1C135EF200EC90B1 /* Assets.xcassets */; };
 		8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75721C130A9A00D35E74 /* SDTableViewController.m */; };
 		8BCE75761C133EC700D35E74 /* SDInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75751C133EC700D35E74 /* SDInputViewController.m */; };
+		8BD1E8801C1374610029674D /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1E87F1C1374610029674D /* SDLoginViewController.m */; };
 		8BDADAF41C09E114002682E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF31C09E114002682E4 /* main.m */; };
 		8BDADAF71C09E114002682E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF61C09E114002682E4 /* AppDelegate.m */; };
 		8BDADAFA1C09E114002682E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADAF91C09E114002682E4 /* ViewController.m */; };
@@ -17,7 +18,6 @@
 		8BDADB021C09E114002682E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDADB001C09E114002682E4 /* LaunchScreen.storyboard */; };
 		8BDADB0D1C09E114002682E4 /* Safe_DriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB0C1C09E114002682E4 /* Safe_DriveTests.m */; };
 		8BDADB181C09E114002682E4 /* Safe_DriveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB171C09E114002682E4 /* Safe_DriveUITests.m */; };
-		8BDADB271C09E28B002682E4 /* SDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB261C09E28B002682E4 /* SDLoginViewController.m */; };
 		8BDADB2A1C09F292002682E4 /* SDBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB291C09F292002682E4 /* SDBrowserViewController.m */; };
 		8BDADB2D1C0A06A3002682E4 /* SDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDADB2C1C0A06A3002682E4 /* SDMenuViewController.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +45,8 @@
 		8BCE75721C130A9A00D35E74 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
 		8BCE75741C133EC700D35E74 /* SDInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDInputViewController.h; sourceTree = "<group>"; };
 		8BCE75751C133EC700D35E74 /* SDInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDInputViewController.m; sourceTree = "<group>"; };
+		8BD1E87E1C1374610029674D /* SDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLoginViewController.h; sourceTree = "<group>"; };
+		8BD1E87F1C1374610029674D /* SDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLoginViewController.m; sourceTree = "<group>"; };
 		8BDADAEF1C09E114002682E4 /* Safe Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDADAF31C09E114002682E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BDADAF51C09E114002682E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +62,6 @@
 		8BDADB131C09E114002682E4 /* Safe DriveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe DriveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDADB171C09E114002682E4 /* Safe_DriveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Safe_DriveUITests.m; sourceTree = "<group>"; };
 		8BDADB191C09E114002682E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BDADB251C09E28B002682E4 /* SDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDLoginViewController.h; path = ../SDLoginViewController.h; sourceTree = "<group>"; };
-		8BDADB261C09E28B002682E4 /* SDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDLoginViewController.m; path = ../SDLoginViewController.m; sourceTree = "<group>"; };
 		8BDADB281C09F292002682E4 /* SDBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserViewController.h; sourceTree = "<group>"; };
 		8BDADB291C09F292002682E4 /* SDBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserViewController.m; sourceTree = "<group>"; };
 		8BDADB2B1C0A06A3002682E4 /* SDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDMenuViewController.h; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 			children = (
 				8BDADB2B1C0A06A3002682E4 /* SDMenuViewController.h */,
 				8BDADB2C1C0A06A3002682E4 /* SDMenuViewController.m */,
-				8BDADB251C09E28B002682E4 /* SDLoginViewController.h */,
-				8BDADB261C09E28B002682E4 /* SDLoginViewController.m */,
+				8BD1E87E1C1374610029674D /* SDLoginViewController.h */,
+				8BD1E87F1C1374610029674D /* SDLoginViewController.m */,
 			);
 			name = SDStartViewControllers;
 			sourceTree = "<group>";
@@ -324,9 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BCE75761C133EC700D35E74 /* SDInputViewController.m in Sources */,
+				8BD1E8801C1374610029674D /* SDLoginViewController.m in Sources */,
 				8BDADB2D1C0A06A3002682E4 /* SDMenuViewController.m in Sources */,
 				8BDADAFA1C09E114002682E4 /* ViewController.m in Sources */,
-				8BDADB271C09E28B002682E4 /* SDLoginViewController.m in Sources */,
 				8BDADB2A1C09F292002682E4 /* SDBrowserViewController.m in Sources */,
 				8BDADAF71C09E114002682E4 /* AppDelegate.m in Sources */,
 				8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */,
