@@ -18,6 +18,6 @@
 -(IBAction)actionsearchgoogle;
 -(IBAction)actionsearchyandex;
 -(IBAction)actionsearchyoutube;
--(IBAction)actionsearchwolfram;
+
 
 @end

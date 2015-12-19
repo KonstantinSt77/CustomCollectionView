@@ -14,35 +14,73 @@
 
 @implementation SDInputViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-   
-}
-/*
+
+
 - (IBAction)save:(id)sender
 {
-    NSString  *userAccountL =  self.userAccountLogin.text;
-        if (!userPassArray)
-        {userPassArray = [[NSMutableArray alloc]init];}
-        else{
-            [userPassArray insertObject:userAccountL atIndex:0];
-        }
-        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-        [self.userPassTabel insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-    }
-*/
-
-
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
+    //(IBAction)test:(id)sender; как вызвать функцию 
 }
-*/
+
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    UIPickerView * picker = [UIPickerView new];
+    picker.delegate = self;
+    picker.dataSource = self;
+    picker.showsSelectionIndicator = YES;
+    [self.view addSubview:picker];
+}
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component {
+    return 10;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
+    NSString * title = nil;
+    switch(row) {
+        case 0:
+            title = @"User Password";
+            break;
+        case 1:
+            title = @"Mail.ru";
+            break;
+        case 2:
+            title = @"Vkontakte.ru";
+            break;
+        case 3:
+            title = @"FaceBook";
+            break;
+        case 4:
+            title = @"Instagramm";
+            break;
+        case 5:
+            title = @"Twitter";
+            break;
+        case 6:
+            title = @"YouTube";
+            break;
+        case 7:
+            title = @"Skype";
+            break;
+        case 8:
+            title = @"Torrent";
+            break;
+        case 9:
+            title = @"Yandex";
+            break;
+        case 10:
+            title = @"Payment";
+            break;
+            
+    }
+    return title;
+}
 
 @end

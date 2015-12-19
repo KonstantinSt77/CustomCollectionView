@@ -12,7 +12,5 @@
 
 
 
--(IBAction)exit:(id)sender;
-
 
 @end

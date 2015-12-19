@@ -93,7 +93,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8B638AAA1C135A0700EC90B1 /* SDDefaltProjectFiles */ = {
+		8B638AAA1C135A0700EC90B1 /* DefaltProjectFiles */ = {
 			isa = PBXGroup;
 			children = (
 				8BDADAF51C09E114002682E4 /* AppDelegate.h */,
@@ -103,10 +103,10 @@
 				8B638AAB1C135EF200EC90B1 /* Assets.xcassets */,
 				8BDADB031C09E114002682E4 /* Info.plist */,
 			);
-			name = SDDefaltProjectFiles;
+			name = DefaltProjectFiles;
 			sourceTree = "<group>";
 		};
-		8BCE75771C13578500D35E74 /* SDPasswordViewControllers */ = {
+		8BCE75771C13578500D35E74 /* PasswordViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				8BCE75711C130A9A00D35E74 /* SDTableViewController.h */,
@@ -114,10 +114,10 @@
 				8BCE75741C133EC700D35E74 /* SDInputViewController.h */,
 				8BCE75751C133EC700D35E74 /* SDInputViewController.m */,
 			);
-			name = SDPasswordViewControllers;
+			name = PasswordViewControllers;
 			sourceTree = "<group>";
 		};
-		8BCE75781C1357FD00D35E74 /* SDStartViewControllers */ = {
+		8BCE75781C1357FD00D35E74 /* StartViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				8BDADB2B1C0A06A3002682E4 /* SDMenuViewController.h */,
@@ -125,7 +125,7 @@
 				8BD1E87E1C1374610029674D /* SDLoginViewController.h */,
 				8BD1E87F1C1374610029674D /* SDLoginViewController.m */,
 			);
-			name = SDStartViewControllers;
+			name = StartViewControllers;
 			sourceTree = "<group>";
 		};
 		8BDADAE61C09E114002682E4 = {
@@ -151,9 +151,9 @@
 		8BDADAF11C09E114002682E4 /* Safe Drive */ = {
 			isa = PBXGroup;
 			children = (
-				8B638AAA1C135A0700EC90B1 /* SDDefaltProjectFiles */,
-				8BCE75781C1357FD00D35E74 /* SDStartViewControllers */,
-				8BCE75771C13578500D35E74 /* SDPasswordViewControllers */,
+				8B638AAA1C135A0700EC90B1 /* DefaltProjectFiles */,
+				8BCE75781C1357FD00D35E74 /* StartViewControllers */,
+				8BCE75771C13578500D35E74 /* PasswordViewControllers */,
 				8BDADB281C09F292002682E4 /* SDBrowserViewController.h */,
 				8BDADB291C09F292002682E4 /* SDBrowserViewController.m */,
 				8BDADAFB1C09E114002682E4 /* Main.storyboard */,

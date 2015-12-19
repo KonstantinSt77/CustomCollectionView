@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SDTableViewController.h"
+
 
 @interface SDInputViewController : UIViewController
 

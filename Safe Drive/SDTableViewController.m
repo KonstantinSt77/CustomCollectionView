@@ -66,13 +66,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"sellIdentifier" forIndexPath:indexPath];
-    
+
 #pragma mark дописать проверку на if (cell == NULL)
     if (cell == NULL)
     {
         //cell = [[UITableView alloc] initWithFrame:UITableViewStylePlain];
     }
-    
+    cell.textColor = [UIColor greenColor];
     cell.textLabel.text = [userPassArray objectAtIndex:indexPath.row];
     return cell;
 }
@@ -94,6 +94,7 @@
 
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         [userPassArray removeObjectAtIndex:indexPath.row];
 #pragma mark   понять почему обращаемся именно к row?
