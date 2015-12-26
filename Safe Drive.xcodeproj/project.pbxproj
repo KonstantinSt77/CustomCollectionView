@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0FCF681C2E993100AB1364 /* SDPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0FCF671C2E993100AB1364 /* SDPhotoViewController.m */; };
 		8B638AAC1C135EF200EC90B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B638AAB1C135EF200EC90B1 /* Assets.xcassets */; };
 		8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75721C130A9A00D35E74 /* SDTableViewController.m */; };
 		8BCE75761C133EC700D35E74 /* SDInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE75751C133EC700D35E74 /* SDInputViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0FCF661C2E993100AB1364 /* SDPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoViewController.h; sourceTree = "<group>"; };
+		8B0FCF671C2E993100AB1364 /* SDPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoViewController.m; sourceTree = "<group>"; };
 		8B638AAB1C135EF200EC90B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BCE75711C130A9A00D35E74 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTableViewController.h; sourceTree = "<group>"; };
 		8BCE75721C130A9A00D35E74 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTableViewController.m; sourceTree = "<group>"; };
@@ -93,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0FCF691C2E996400AB1364 /* EntertainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BDADB281C09F292002682E4 /* SDBrowserViewController.h */,
+				8BDADB291C09F292002682E4 /* SDBrowserViewController.m */,
+				8B0FCF661C2E993100AB1364 /* SDPhotoViewController.h */,
+				8B0FCF671C2E993100AB1364 /* SDPhotoViewController.m */,
+			);
+			name = EntertainViewControllers;
+			sourceTree = "<group>";
+		};
 		8B638AAA1C135A0700EC90B1 /* DefaltProjectFiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +120,7 @@
 			name = DefaltProjectFiles;
 			sourceTree = "<group>";
 		};
-		8BCE75771C13578500D35E74 /* PasswordViewControllers */ = {
+		8BCE75771C13578500D35E74 /* PassViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				8BCE75711C130A9A00D35E74 /* SDTableViewController.h */,
@@ -114,7 +128,7 @@
 				8BCE75741C133EC700D35E74 /* SDInputViewController.h */,
 				8BCE75751C133EC700D35E74 /* SDInputViewController.m */,
 			);
-			name = PasswordViewControllers;
+			name = PassViewControllers;
 			sourceTree = "<group>";
 		};
 		8BCE75781C1357FD00D35E74 /* StartViewControllers */ = {
@@ -153,9 +167,8 @@
 			children = (
 				8B638AAA1C135A0700EC90B1 /* DefaltProjectFiles */,
 				8BCE75781C1357FD00D35E74 /* StartViewControllers */,
-				8BCE75771C13578500D35E74 /* PasswordViewControllers */,
-				8BDADB281C09F292002682E4 /* SDBrowserViewController.h */,
-				8BDADB291C09F292002682E4 /* SDBrowserViewController.m */,
+				8BCE75771C13578500D35E74 /* PassViewControllers */,
+				8B0FCF691C2E996400AB1364 /* EntertainViewControllers */,
 				8BDADAFB1C09E114002682E4 /* Main.storyboard */,
 				8BDADB001C09E114002682E4 /* LaunchScreen.storyboard */,
 				8BDADAF21C09E114002682E4 /* Supporting Files */,
@@ -330,6 +343,7 @@
 				8BDADB2A1C09F292002682E4 /* SDBrowserViewController.m in Sources */,
 				8BDADAF71C09E114002682E4 /* AppDelegate.m in Sources */,
 				8BCE75731C130A9A00D35E74 /* SDTableViewController.m in Sources */,
+				8B0FCF681C2E993100AB1364 /* SDPhotoViewController.m in Sources */,
 				8BDADAF41C09E114002682E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Safe Drive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SKS.Safe-Drive";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Safe Drive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SKS.Safe-Drive";
 				PRODUCT_NAME = "$(TARGET_NAME)";

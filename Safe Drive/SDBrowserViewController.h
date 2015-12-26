@@ -13,8 +13,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *searchgoogle;
 
 
-
--(IBAction)advancegoogle;
 -(IBAction)actionsearchgoogle;
 -(IBAction)actionsearchyandex;
 -(IBAction)actionsearchyoutube;
