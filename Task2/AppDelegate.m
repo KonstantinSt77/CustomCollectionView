@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Safe Drive
+//  task2
 //
 //  Created by Kostya on 28.11.15.
 //  Copyright © 2015 Stolyarenko K.S. All rights reserved.
@@ -15,10 +15,12 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     // Override point for customization after application launch.
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -31,8 +33,7 @@
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    UIViewController *viewController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"loginVC"];
-    self.window.rootViewController = viewController;
+
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {

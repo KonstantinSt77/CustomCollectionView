@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="cell" reuseIdentifier="cell" id="lad-6a-xGX" customClass="MyCell">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="267" height="40"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="161" translatesAutoresizingMaskIntoConstraints="NO" id="9Db-GB-bUp">
+                        <rect key="frame" x="8" y="8" width="231" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="Bef-vk-tlW"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="360" id="bj8-Kn-tKF"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="t45-p4-LUh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="t45-p4-LUh"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="0.82382221414936863" blue="0.9012510759410205" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9Db-GB-bUp" secondAttribute="trailing" constant="28" id="0TO-KL-PVL"/>
+                <constraint firstItem="9Db-GB-bUp" firstAttribute="top" secondItem="lad-6a-xGX" secondAttribute="top" constant="8" id="7SF-pg-tVl"/>
+                <constraint firstItem="9Db-GB-bUp" firstAttribute="leading" secondItem="lad-6a-xGX" secondAttribute="leading" constant="8" id="XXo-7W-jHf"/>
+                <constraint firstAttribute="bottom" secondItem="9Db-GB-bUp" secondAttribute="bottom" constant="10" id="eV7-4S-2pd"/>
+            </constraints>
+            <size key="customSize" width="267" height="40"/>
+            <connections>
+                <outlet property="myCustomlabel" destination="9Db-GB-bUp" id="HfW-rA-aiR"/>
+            </connections>
+            <point key="canvasLocation" x="351.5" y="336"/>
+        </collectionViewCell>
+    </objects>
+</document>

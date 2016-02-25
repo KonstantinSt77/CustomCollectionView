@@ -1,6 +1,6 @@
 //
 //  SDTableViewController.h
-//  Safe Drive
+//  task2
 //
 //  Created by Kostya on 05.12.15.
 //  Copyright © 2015 Stolyarenko K.S. All rights reserved.
@@ -14,7 +14,7 @@
 @property (strong, nonatomic) NSMutableArray *userPassArray;
 
 @property (weak, nonatomic) IBOutlet UITextField *userAccountLogin;
--(IBAction)test:(id)sender;
+
 
 
 
