@@ -65,10 +65,6 @@
             [self.view layoutIfNeeded];
         }];
     });
-    
-    
-    
-    
 }
 
 #pragma mark CollectionView
@@ -117,6 +113,5 @@
 {
     return UIEdgeInsetsMake(5, 5, 5, 5);
 }
-
 
 @end

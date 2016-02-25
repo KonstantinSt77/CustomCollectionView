@@ -52,11 +52,7 @@
         }
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
         [self.userPassTabel insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-
     }
-
-
-
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 
@@ -89,7 +85,6 @@
     [userPassTabel setEditing:editing animated:animated];
 }
 
-
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
@@ -100,7 +95,5 @@
  
     }   
 }
-
-
 
 @end
