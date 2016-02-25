@@ -13,12 +13,12 @@
 @end
 
 @implementation SDTableViewController
-@synthesize  userPassTabel, userPassArray;
+//@synthesize  userPassTabel, userPassArray;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    userPassArray = [[NSMutableArray alloc] initWithObjects:@"First message",@"Second message", nil];
+    self.userPassArray = [[NSMutableArray alloc] initWithObjects:@"First message",@"Second message", nil];
   
     self.title = @"Your Accounts";
     
@@ -45,10 +45,10 @@
 -(void)createButton:(id)sender
     {
         NSString  *userAccountL =  self.userAccountLogin.text;
-        if (!userPassArray)
-        {userPassArray = [[NSMutableArray alloc]init];}
+        if (!self.userPassArray)
+        {self.userPassArray = [[NSMutableArray alloc]init];}
         else{
-            [userPassArray insertObject:userAccountL atIndex:0];
+            [self.userPassArray insertObject:userAccountL atIndex:0];
         }
         NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
         [self.userPassTabel insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
@@ -61,7 +61,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return [userPassArray count];
+    return [self.userPassArray count];
 }
 
 
@@ -69,7 +69,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"sellIdentifier" forIndexPath:indexPath];
 
     cell.textColor = [UIColor greenColor];
-    cell.textLabel.text = [userPassArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = [self.userPassArray objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -82,13 +82,13 @@
 - (void)setEditing:(BOOL)editing animated:(BOOL)animated
 {
     [super setEditing:editing animated:animated];
-    [userPassTabel setEditing:editing animated:animated];
+    [self.userPassTabel setEditing:editing animated:animated];
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [userPassArray removeObjectAtIndex:indexPath.row];
+        [self.userPassArray removeObjectAtIndex:indexPath.row];
 
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
